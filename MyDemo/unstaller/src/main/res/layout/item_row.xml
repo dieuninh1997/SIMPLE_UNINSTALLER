@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="15"
+        android:layout_height="40dp"
+        android:padding="10dp"
+
+        android:id="@+id/imgIconApp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="65"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/txtNameApp" />
+
+    <!-- <TextView
+         android:layout_width="0dp"
+         android:layout_weight="10"
+         android:layout_height="wrap_content"
+         android:textAppearance="?android:attr/textAppearanceSmall"
+         android:layout_gravity="center"
+         android:id="@+id/txtKB" />
+     <ImageButton
+         android:layout_width="0dp"
+         android:layout_weight="10"
+         android:layout_height="wrap_content"
+         android:id="@+id/ibtnDetail"
+         android:src="@drawable/detail"
+         android:visibility="visible" />-->
+
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_weight="10"
+        android:layout_height="wrap_content"
+        android:id="@+id/ibtnDelete"
+        android:src="@drawable/xoa"
+        android:visibility="visible" />
+
+
+</LinearLayout>
